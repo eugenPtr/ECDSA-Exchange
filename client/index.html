@@ -18,10 +18,28 @@
         <h1> Send Amount </h1>
         <input type="text" id="send-amount" placeholder="Send Amount" />
         <input type="text" id="recipient" placeholder="Recipient" />
+        <div class="button" id="sign-transaction">
+          Sign Transaction
+        </div>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h4> Enter transaction signature before transfering the amount</h4>
+        <div>
+          <textarea id="code-block"></textarea>
+        </div>
+        <input type="text" id="signature" placeholder="Signature" />
         <div class="button" id="transfer-amount">
           Transfer Amount
         </div>
       </div>
+
     </div>
   </body>
 </html>
